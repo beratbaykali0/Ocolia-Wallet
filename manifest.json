@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Ocolia Wallet",
+  "version": "1.0.0",
+  "description": "Multi-chain wallet for Bitcoin, Ethereum, and Solana",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ocolia Wallet"
+  },
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "sidePanel"]
+}

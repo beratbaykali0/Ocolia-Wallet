@@ -1,0 +1,18 @@
+{
+  "name": "ocolia-wallet",
+  "version": "1.0.0",
+  "description": "Multi-chain wallet browser extension for Bitcoin, Ethereum, and Solana",
+  "private": true,
+  "scripts": {
+    "build-libs": "powershell -ExecutionPolicy Bypass -File build-libs.ps1"
+  },
+  "dependencies": {
+    "@scure/bip32": "^2.2.0",
+    "@solana/web3.js": "^1.95.3",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "buffer": "^6.0.3",
+    "ethers": "^5.7.2",
+    "wif": "^5.0.0"
+  }
+}
