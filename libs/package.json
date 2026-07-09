@@ -1,0 +1,22 @@
+{
+  "name": "libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bip39.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@scure/bip32": "^2.2.0",
+    "@solana/web3.js": "^1.95.3",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "buffer": "^6.0.3",
+    "ethers": "^5.7.2",
+    "wif": "^5.0.0"
+  }
+}
